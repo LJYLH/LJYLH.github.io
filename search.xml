@@ -5,8 +5,8 @@
     
     <entry>
       <title>红帽笔记第一天</title>
-      <link href="/2020/04/12/hong-mao-bi-ji-di-yi-tian/"/>
-      <url>/2020/04/12/hong-mao-bi-ji-di-yi-tian/</url>
+      <link href="/posts/undefined.html"/>
+      <url>/posts/undefined.html</url>
       
         <content type="html"><![CDATA[<p>一句话木马（低阶）<br>1.服务器，安装启动phpstudy；</p><p>2.查看是否成功：</p><p>2.搭建DVWA（靶场）：<br>将下载好的dvwa文件置于../phpstudy/PHPTutorial/WWW/下<br>更改config文件夹 下的config.inc.php.dist为config.inc.php并更改内容：</p><p>重启Phpstudy服务；<br>3.客户端访问：</p><p>4.更改难度：</p><p>5.登录数据库：</p><p>用户名默认admin，密码默认passwor；</p><p>6.编写一句话木马：</p><p>7.上传一句话木马文件：</p><p>8.客户端打开菜刀工具，添加脚本网络地址；注：地址为上传文件所在的位置，如：192.168.2.115/dvwa/hackable/uploads/1.php。</p><p>9.双击所添加的脚步，成功进入网站目录：</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
